@@ -29,52 +29,54 @@
 					</div>
 				</div>
 
-			<!-- Main -->
-				<div class="wrapper">
-					<div class="container" id="main">
-                        <div class="container">
-                            <h2>Booking Request Form</h2>
-                            <form id="booking-form">
-                                <label for="name">Your Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    
-                                <label for="service">Select a Service:</label>
-                                <select id="service" name="service" required>
-                                    <option value="" disabled selected>Select a Service</option>
-                                    <option value="Service 1">Service 1</option>
-                                    <option value="Service 2">Service 2</option>
-                                    <option value="Service 1">Service 3</option>
-                                    <option value="Service 2">Service 4</option>
-                                    <option value="Service 1">Service 5</option>
-                                    <option value="Service 2">Service 6</option>
-                                    <!-- Add more service options as needed -->
-                                </select>
-                    
-                                <label for="date">Select a Date:</label>
-                                <input type="date" id="date" name="date" required>
-                    
-                                <label for="time-slot">Select a Time Slot:</label>
-                                <select id="time-slot" name="time-slot" required>
-                                    <option value="" disabled selected>Select a Time Slot</option>
-                                    <!-- Add more time slot options as needed -->
-                                </select>
-                    
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="example@example.com" required>
-                    
-                                <label for="phone">Phone Number:</label>
-                                <input type="tel" id="phone" name="phone" placeholder="+44XXXXXXXXXX" required>
-                    
-                                <label for="comment">Comment (optional):</label>
-                                <textarea id="comment" name="comment" rows="4" placeholder="Add any additional comments here"></textarea>
-                    
-                                <button type="submit">Book</button>
-                            </form>
-                        </div>
 
-						
+			<!-- Main -->
+			<div class="wrapper">
+				<div class="container" id="main">
+					<div class="container">
+						<h2>Booking Request Form</h2>
+						<form action="https://formsubmit.co/hadde.lukya@outlook.com" method="POST" id="booking-form">
+							<label for="name">Your Name:</label>
+							<input type="text" id="name" name="name" placeholder="Your Name" required>
+				
+							<label for="services">Select Service(s):</label>
+							<select id="services" name="services" multiple required>
+								<!-- Service options with "multiple" selection enabled -->
+								<option value="Service 1">Service 1</option>
+								<option value="Service 2">Service 2</option>
+								<option value="Service 1">Service 3</option>
+								<option value="Service 2">Service 4</option>
+								<option value="Service 1">Service 5</option>
+								<option value="Service 2">Service 6</option>
+								<!-- Add more service options as needed -->
+							</select>
+				
+							<label for="date">Select a Date:</label>
+							<input type="date" id="date" name="date" required>
+				
+							<label for="time-slot">Select a Time Slot:</label>
+							<select id="time-slot" name="time" required>
+								<option value="" disabled selected>Select a Time Slot</option>
+								<!-- Add more time slot options as needed -->
+							</select>
+				
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="example@example.com" required>
+				
+							<label for="phone">Phone Number:</label>
+							<input type="tel" id="phone" name="phone" placeholder="+44XXXXXXXXXX" required>
+				
+							<label for="comment">Comment (optional):</label>
+							<textarea id="comment" name="comment" rows="4" placeholder="Add any additional comments here"></textarea>
+				
+							<button type="submit">Book</button>
+						</form>
 					</div>
+
+					
 				</div>
+			</div>
+
 
 			<!-- Footer -->
 				<div id="footer-wrapper">
