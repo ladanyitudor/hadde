@@ -1,6 +1,12 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 
+/*
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -214,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #000000;
+			color: #f35858;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -1762,9 +1768,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.feature {
+		.image.featured {
 			display: block;
-			width: 30%;
+			width: 100%;
 			margin: 0 0 3em 0;
 		}
 
@@ -2015,8 +2021,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #e67878;
-			border-color: rgba(255, 144, 144, 0.5);
+			color: #f35858;
+			border-color: rgba(243, 88, 88, 0.5);
 		}
 
 /* Icons */
@@ -2408,10 +2414,6 @@ input, select, textarea {
 			}
 
 		/* Wrappers */
-			
-			.image.featured {
-				width: 40%;
-			}
 
 			.wrapper {
 				padding: 5em 0 5em 0;
@@ -2457,10 +2459,6 @@ input, select, textarea {
 			}
 
 		/* Wrappers */
-			
-			.image.featured {
-				width: 40%;
-			}
 
 			.wrapper {
 				padding: 4em 2em 4em 2em;
@@ -2623,9 +2621,6 @@ input, select, textarea {
 			}
 
 		/* Main */
-			.image.featured {
-				width: 50%;
-			}
 
 			#main {
 				padding-bottom: 0;
@@ -2690,10 +2685,7 @@ input, select, textarea {
 				header > p {
 					font-size: 1em;
 				}
-			
-				.image.featured {
-					width: 50%;
-				}
+
 		/* Divided */
 
 			ul.divided li {
@@ -3002,11 +2994,6 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 
-			.image.featured {
-				width: 50%;
-				
-			}
-
 		/* Actions */
 
 			ul.actions li {
@@ -3080,48 +3067,4 @@ input, select, textarea {
 				margin-bottom: 1em;
 			}
 
-	}
-
-	#copyright {
-		color: #000000;
-	}
-
-	input[type="date"],
-    input[type="tel"] {
-        border: 1px solid #a7a8a7;
-		border-radius: 5px;
-	}
-
-	form {
-        display: flex;
-        flex-direction: column;
-        padding: 20px; /* Add padding within the form */
-		width: 100%;
-    }
-
-	.container2 {
-        max-width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    }
-
-	table {
-		border-collapse: collapse;
-		width: 100%;
-	}
-	th, td {
-		border: 1px solid #ddd;
-		padding: 8px;
-	}
-	th {
-		background-color: #f2f2f2;
-		font-weight: bold;
-		text-align: center;
-	}
-
-	#td1 {
-		text-align: center;
 	}
