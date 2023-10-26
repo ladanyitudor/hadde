@@ -3082,6 +3082,36 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 420px) {
+		.image.feature {
+			width: 50%;
+		}
+
+		.image {
+			width: 90%;
+		}
+	}
+
+	@media screen and (max-width: 720px) {
+		.image.feature {
+			width: 50%;
+		}
+
+		.image {
+			width: 90%;
+		}
+	}
+
+	@media screen and (max-width: 1080px) {
+		.image.feature {
+			width: 50%;
+		}
+
+		.image {
+			width: 90%;
+		}
+	}
+
 	#copyright {
 		color: #000000;
 	}
