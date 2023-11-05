@@ -3159,11 +3159,20 @@ input, select, textarea {
 	#td1 {
 		text-align: center;
 	}
+	@media screen and (max-width: 720px) {
+		.intro {
+			display: grid;
+			place-items: center;
+			padding: 2vw;
+		}
+	}	
 
-	.intro {
-		display: grid;
-		place-items: center;
-		padding: 25px;
+	@media screen and (min-width: 720px) {
+		.intro {
+			display: grid;
+			place-items: center;
+
+		}
 	}
 
 	.intro2 {
