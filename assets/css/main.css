@@ -3166,6 +3166,24 @@ input, select, textarea {
 		padding: 25px;
 	}
 
+	.intro2 {
+		display: grid;
+		place-items: center;
+		padding: 25px;
+		background-image: url(../css/images/image-wrapper.svg);
+
+	}
+
+	.intro3 {
+		display: grid;
+		place-items: center;
+		padding: 40px;
+	}
+
+	.name1 {
+		font-size: 4vw;
+	}
+
 	.image1 { 
 		width: 48%; display: inline-block;
 	}
@@ -3199,8 +3217,9 @@ input, select, textarea {
 		}
 
 		.gallery {
-			margin: 20px;
-			padding: 20px;
+			margin-top: 25px;
+			margin-bottom: 60px;
+			padding: 60px;
 		}
 	}
 
@@ -3221,6 +3240,8 @@ input, select, textarea {
 			padding: 80px;
 		}	
 	}
+
+	
 
 
 	
