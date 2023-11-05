@@ -3159,3 +3159,8 @@ input, select, textarea {
 	#td1 {
 		text-align: center;
 	}
+
+	.intro {
+		display: grid;
+		place-items: center;
+	}
