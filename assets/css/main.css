@@ -3164,3 +3164,54 @@ input, select, textarea {
 		display: grid;
 		place-items: center;
 	}
+
+	.image1 { 
+		width: 48%; display: inline-block;
+	}
+
+	
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 5px;
+		background-image: url(../css/images/image-wrapper.svg);
+	}
+
+	.gallery img {
+		width: 100%;
+		height: auto;
+		transition: transform 0.6s ease;
+	}
+
+	.gallery img:hover {
+		transform: scale(1.4);
+	}
+
+
+	@media screen and (max-width: 720px) {
+		.gallery img {
+			width: 30%;
+			margin: 1.66%;
+		}
+
+		.gallery {
+			margin: 20px;
+			padding: 20px;
+		}
+	}
+
+	@media screen and (min-width: 720px) {
+		.gallery img {
+			width: 30%;
+			margin: 1.66%;
+		}
+
+		.gallery {
+			margin-top: 50px;
+			margin-bottom: 100px;
+			padding: 80px;
+		}	
+	}
+
+
+	
