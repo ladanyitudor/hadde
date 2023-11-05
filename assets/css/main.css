@@ -3181,7 +3181,7 @@ input, select, textarea {
 	.gallery img {
 		width: 100%;
 		height: auto;
-		transition: transform 0.6s ease;
+
 	}
 
 	
@@ -3191,7 +3191,7 @@ input, select, textarea {
 		.gallery img {
 			width: 30%;
 			margin: 1.66%;
-			transition: transform 0.8s ease;
+			transition: transform 1.4s ease;
 		}
 
 		.gallery img:hover {
@@ -3208,6 +3208,7 @@ input, select, textarea {
 		.gallery img {
 			width: 30%;
 			margin: 1.66%;
+			transition: transform 1.4s ease;
 		}
 
 		.gallery img:hover {
