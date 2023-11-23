@@ -3183,6 +3183,10 @@ input, select, textarea {
 
 	}
 
+	.p {
+		text-align: center;
+	}
+
 	.intro3 {
 		display: grid;
 		place-items: center;
@@ -3208,7 +3212,7 @@ input, select, textarea {
 	.gallery img {
 		width: 100%;
 		height: auto;
-
+		border: 2px groove rgb(245, 185, 208);
 	}
 
 	
@@ -3222,7 +3226,7 @@ input, select, textarea {
 		}
 
 		.gallery img:hover {
-			transform: scale(1.9);
+			transform: scale(2.5);
 		}
 
 		.gallery {
@@ -3240,7 +3244,7 @@ input, select, textarea {
 		}
 
 		.gallery img:hover {
-			transform: scale(1.4);
+			transform: scale(1.5);
 		}
 
 		.gallery {
